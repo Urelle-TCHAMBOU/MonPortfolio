@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.slider{
+    width:100%;
+    min-height: 80vh;
+    aspect-ratio: 16/9;
+    background: #6b4242;
+    position: relative;
+}
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+h1{
+    color: #fff;
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.section{
+    padding: 120px 0;
+}
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+.dark{
+    background: #000;
+    color: #fff;
+}
+.w33{
+    width: 33%;
+}
+.skill{
+background: #333;
+border-radius: 15px;
+padding: 20px;
+box-sizing: border-box;
+}
+.skill img{
+    width: 100px;
+}
+.skill h3{
+    margin-top: 10px;
+}
+.boxed text-center{
+    background: #fff;
+    color: #000;
+}
+.white{
+    background: #fff;
+    color: #000;    
+}
+.icon{
+    display: block;
+    font-size: 1.5rem;
+}
+.label{
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:10px 0;
+    font-size: 1.5rem;
+}
+.value{
+    display: block;
+    font-size: 1.2rem;
+}
+.contact{
+    border:2px dashed #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
